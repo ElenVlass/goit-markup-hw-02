@@ -1,0 +1,214 @@
+/* roboto-regular - latin_cyrillic */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Roboto/roboto-v20-latin_cyrillic-regular.eot"); /* IE9 Compat Modes */
+  src: local("Roboto"), local("Roboto-Regular"),
+    url("../fonts/Roboto/roboto-v20-latin_cyrillic-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/Roboto/roboto-v20-latin_cyrillic-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/Roboto/roboto-v20-latin_cyrillic-regular.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../fonts/Roboto/roboto-v20-latin_cyrillic-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/Roboto/roboto-v20-latin_cyrillic-regular.svg#Roboto")
+      format("svg"); /* Legacy iOS */
+}
+/* roboto-500 - latin_cyrillic */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Roboto/roboto-v20-latin_cyrillic-500.eot"); /* IE9 Compat Modes */
+  src: local("Roboto Medium"), local("Roboto-Medium"),
+    url("../fonts/Roboto/roboto-v20-latin_cyrillic-500.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/Roboto/roboto-v20-latin_cyrillic-500.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/Roboto/roboto-v20-latin_cyrillic-500.woff") format("woff"),
+    /* Modern Browsers */
+      url("../fonts/Roboto/roboto-v20-latin_cyrillic-500.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/Roboto/roboto-v20-latin_cyrillic-500.svg#Roboto")
+      format("svg"); /* Legacy iOS */
+}
+/* roboto-700 - latin_cyrillic */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Roboto/roboto-v20-latin_cyrillic-700.eot"); /* IE9 Compat Modes */
+  src: local("Roboto Bold"), local("Roboto-Bold"),
+    url("../fonts/Roboto/roboto-v20-latin_cyrillic-700.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/Roboto/roboto-v20-latin_cyrillic-700.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/Roboto/roboto-v20-latin_cyrillic-700.woff") format("woff"),
+    /* Modern Browsers */
+      url("../fonts/Roboto/roboto-v20-latin_cyrillic-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/Roboto/roboto-v20-latin_cyrillic-700.svg#Roboto")
+      format("svg"); /* Legacy iOS */
+}
+/* roboto-900 - latin_cyrillic */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/Roboto/roboto-v20-latin_cyrillic-900.eot"); /* IE9 Compat Modes */
+  src: local("Roboto Black"), local("Roboto-Black"),
+    url("../fonts/Roboto/roboto-v20-latin_cyrillic-900.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/Roboto/roboto-v20-latin_cyrillic-900.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/Roboto/roboto-v20-latin_cyrillic-900.woff") format("woff"),
+    /* Modern Browsers */
+      url("../fonts/Roboto/roboto-v20-latin_cyrillic-900.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/Roboto/roboto-v20-latin_cyrillic-900.svg#Roboto")
+      format("svg"); /* Legacy iOS */
+}
+/* преимущества и занятия background: #e5e5e5; */
+/*команда background: #f5f4fa;*/
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --dark-bgd-color: #2f303a;
+  --hero-title-color: #ffffff;
+  --contacts-text-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.logo {
+  color: var(--title-text-color);
+}
+.logo-accent {
+  color: var(--accent-color);
+}
+.logo.link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link,
+.mail,
+.tel {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.mail {
+  color: var(--accent-color);
+}
+.tel {
+  color: var(--primary-text-color);
+}
+.hero-title {
+  color: var(--hero-title-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.section-title.work,
+.team .section-title {
+  font-size: 36px;
+  line-height: 1.17;
+}
+.team .title,
+.works .title {
+  color: var(--title-text-color);
+}
+.team .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.button.hero,
+.button.current {
+  color: #ffffff;
+  font-family: inherit;
+  background-color: var(--accent-color);
+}
+.button.hero {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+.link.current {
+  color: var(--accent-color);
+}
+.dark-bg {
+  background: var(--dark-bgd-color);
+}
+.logo-studio {
+  color: var(--hero-title-color);
+}
+
+address {
+  font-style: normal;
+}
+.address,
+.contacts {
+  font-size: 14px;
+  line-height: 1.71;
+}
+.contacts {
+  color: var(--contacts-text-color);
+}
+.address {
+  color: #ffffff;
+}
+.filter .button:hover,
+.filter .button:focus {
+  color: var(--hero-title-color);
+  background: var(--accent-color);
+}
+.button {
+  color: var(--title-text-color);
+}
