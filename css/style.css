@@ -122,20 +122,19 @@ body {
   color: var(--title-text-color);
 }
 .site-nav .link,
-.mail,
-.tel {
+.aut-nav .link {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus,
+.aut-nav .link:hover,
+.aut-nav .link:focus {
   color: var(--accent-color);
 }
-.mail {
-  color: var(--accent-color);
-}
-.tel {
+
+.aut-nav .link {
   color: var(--primary-text-color);
 }
 .hero-title {
@@ -171,8 +170,7 @@ body {
 .filter-button {
   color: var(--title-text-color);
 }
-.button.hero,
-.filter-button.current {
+.button.hero {
   color: #ffffff;
   font-family: inherit;
   background-color: var(--accent-color);
